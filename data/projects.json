@@ -1,0 +1,23 @@
+[
+  {
+    "title": "E-Commerce Web App",
+    "description": "A fully functional online shop layout featuring product catalogs and a shopping cart workflow.",
+    "technologies": "HTML, CSS, JavaScript",
+    "role": "Frontend Developer",
+    "link": "https://github.com"
+  },
+  {
+    "title": "Task Manager App",
+    "description": "An interactive productivity application to organize daily workflows and task checklists.",
+    "technologies": "JavaScript, DOM Manipulation, LocalStorage",
+    "role": "Sole Creator",
+    "link": "https://github.com"
+  },
+  {
+    "title": "Weather Dashboard",
+    "description": "A weather forecasting dashboard connecting to live meteorological APIs to present real-time data.",
+    "technologies": "HTML5, CSS3, REST APIs, JSON",
+    "role": "Lead Developer",
+    "link": "https://github.com"
+  }
+]
