@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">JD</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="home-content">
+            <h1>John Doe</h1>
+            <p class="tagline">Full-Stack Web Developer & Tech Enthusiast</p>
+            <p class="intro">I build functional, scalable, and user-friendly web applications that solve real-world problems. Welcome to my digital space!</p>
+            <img src="https://via.placeholder.com/180" alt="Profile Photo" class="profile-photo">
+            <div class="cta-container">
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn btn-alt">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-card">
+            <p><strong>Brief Biography:</strong> I am a passionate developer currently expanding my expertise in modern web technologies and software engineering frameworks.</p>
+            <p><strong>Education:</strong> Bachelor of Science in Information Technology, State University (Expected Graduation: 2027)</p>
+            <p><strong>Career Goals:</strong> To work as a software engineer contributing to high-impact open-source and enterprise web solutions.</p>
+            <p><strong>Interests:</strong> UI/UX Design, Cloud Architecture, Artificial Intelligence, Open Source Contributing.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <p>Web Development, Responsive Design, API Integration, Version Control</p>
+            </div>
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <p>HTML5, CSS3, JavaScript (ES6+), Python, SQL</p>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <p>Git, GitHub, VS Code, Node.js, REST APIs</p>
+            </div>
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <p>Problem Solving, Communication, Team Collaboration, Time Management</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <p class="section-subtitle">Projects loaded dynamically from JSON file:</p>
+        <div id="projects-container" class="projects-grid">
+            <!-- Populated via script.js -->
+        </div>
+
+        <h2 style="margin-top: 50px;">Latest GitHub Repositories</h2>
+        <p class="section-subtitle">Fetched live from GitHub REST API:</p>
+        <div id="github-container" class="projects-grid">
+            <p id="github-loading">Loading GitHub repositories...</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><strong>Email:</strong> john.doe@example.com</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com" target="_blank">github.com/johndoe</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">linkedin.com/in/johndoe</a></p>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+                <p id="form-feedback" class="feedback-msg"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Custom Feature: Back to Top Button -->
+    <button id="backToTopBtn" title="Go to top">↑ Top</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+                     </html>
+                     
